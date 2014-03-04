@@ -1,0 +1,11 @@
+success('success');
+warning('warning');
+error('error');
+info('info');
+
+Result::success('success');
+Result::warning('warning');
+Result::error('error');
+Result::info('info');
+
+return Result::render();
