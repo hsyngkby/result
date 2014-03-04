@@ -10,7 +10,7 @@ class ResultServiceProvider extends ServiceProvider {
 	 * @var bool
 	 */
 	protected $defer = false;
-	
+
 	/**
 	 * Bootstrap the application events.
 	 * @return void
@@ -33,9 +33,6 @@ class ResultServiceProvider extends ServiceProvider {
 				$loader->alias($alias, '\Hsyngkby\Result\ResultFacade');
 			});
 		}
-
-		// Include various files
-		require __DIR__ . '/../../helpers.php';
 	}
 
 	/**

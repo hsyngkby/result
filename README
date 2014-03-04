@@ -1,11 +1,6 @@
-success('success');
-warning('warning');
-error('error');
-info('info');
-
-Result::success('success');
-Result::warning('warning');
-Result::error('error');
-Result::info('info');
+Result::success($process, $message, $opt ,$flash);
+Result::warning($process, $message, $opt ,$flash);
+Result::error($process, $message, $opt ,$flash);
+Result::info($process, $message, $opt ,$flash);
 
 return Result::render();
