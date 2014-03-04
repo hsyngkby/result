@@ -1,0 +1,6 @@
+Result::success($process, $message, $opt ,$flash);
+Result::warning($process, $message, $opt ,$flash);
+Result::error($process, $message, $opt ,$flash);
+Result::info($process, $message, $opt ,$flash);
+
+return Result::render();
